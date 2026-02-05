@@ -1,0 +1,19 @@
+{
+  "pacientes": [
+    { "id": 1707050000001, "nombre": "Ana García", "dni": "V-123456", "fecha": "2026-01-10" },
+    { "id": 1707050000002, "nombre": "Luis Pérez", "dni": "V-789012", "fecha": "2026-01-15" },
+    { "id": 1707050000003, "nombre": "Marta Rivas", "dni": "V-345678", "fecha": "2026-02-01" }
+  ],
+  "medicos": [
+    { "id": 201, "nombre": "Dr. House", "especialidad": "Diagnóstico" },
+    { "id": 202, "nombre": "Dra. Grey", "especialidad": "Cirugía" }
+  ],
+  "examenes": [
+    { "id": 301, "tipo": "Hematología Completa", "costo": "15.00" },
+    { "id": 302, "tipo": "Perfil Lipídico", "costo": "25.00" }
+  ],
+  "resultados": [
+    { "id": 401, "pacienteId": 1707050000001, "medicoId": 201, "examenId": 301, "valor": "Normal", "fecha": "2026-02-01" },
+    { "id": 402, "pacienteId": 1707050000002, "medicoId": 202, "examenId": 302, "valor": "Colesterol Alto", "fecha": "2026-02-03" }
+  ]
+}
